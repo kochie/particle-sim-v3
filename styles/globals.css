@@ -6,11 +6,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
+/* a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+} */
+
+canvas {
+  display: block; /* fix necessary to remove space at bottom of canvas */
 }
